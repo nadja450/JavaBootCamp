@@ -12,8 +12,8 @@ public class OperatorActivity {
 	public static void main(String[] args) {
 		
 		// Declare numbers to be operated
-		int i = 8;
-		int j = 5;
+		int i = 10;
+		int j = 4;
 		
 		// Subtract numbers
 		int result = i-j;
