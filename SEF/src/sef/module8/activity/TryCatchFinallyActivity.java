@@ -17,11 +17,12 @@ void catchMeIfYouCan()
 	{
 		System.out.println(arr[i]);
 	}
+	try { for(int i=0;i<=10;i++);
 	
-	
-	
-	System.out.println("This should get printed even if there is an exception");
-	
+	} catch (ArrayIndexOutOfBoundsException e) {
+System.out.println("This should get printed even if there is an exception");
+}
+
 }
 
 }
